@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JOGO DA VELHA</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="start">
+            <label id="botao" for="iniciar">QUEM JOGA:</label> <br>
+            <input name="iniciar" type="button" value="INICIAR" onclick="iniciar()">
+        </div>
+
+        <div class="start">
+            <label id="botao" for="iniciar">ESCOLHA A DIFICULDADE:</label> <br>
+            <input name="iniciar" type="button" value="FACIL" onclick="facil()"> <br>
+            <input name="iniciar" type="button" value="DIFICIL" onclick="dificil()">
+        </div>
+    </div>
+
+
+    <div class="principal">
+
+        <div id="dv1" class="generica dv1" onclick="jogar(1)"></div>
+        <div id="dv2" class="generica dv2" onclick="jogar(2)"></div>
+        <div id="dv3" class="generica dv3" onclick="jogar(3)"></div>
+        <div id="dv4" class="generica dv4" onclick="jogar(4)"></div>
+        <div id="dv5" class="generica dv5" onclick="jogar(5)"></div>
+        <div id="dv6" class="generica dv6" onclick="jogar(6)"></div>
+        <div id="dv7" class="generica dv7" onclick="jogar(7)"></div>
+        <div id="dv8" class="generica dv8" onclick="jogar(8)"></div>
+        <div id="dv9" class="generica dv9" onclick="jogar(9)"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
